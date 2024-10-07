@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Header section  -->
+    <header>
+        <h1>Contact Us</h1>
+        <p>If you have any questions, feel free to reach out!</p>
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- Contact form -->
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+
+            <!-- Form element for collecting user information -->
+            <form method="post" action="/submit-contact-form">
+                <!-- user's name -->
+                <div>
+                    <label for="name">Name:</label><br />
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <!-- user's email -->
+                <div>
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <!-- phone number -->
+                <div>
+                    <label for="phone">Phone:</label><br />
+                    <input type="tel" id="phone" name="phone" />
+                </div>
+
+                <!-- user's message -->
+                <div>
+                    <label for="message">Message:</label><br />
+                    <textarea id="message" name="message" rows="4" required></textarea><br />
+                </div>
+
+                <!-- Submit button  -->
+                <button type="submit">Send Message</button> 
+            </form> 
+        </section>
+        
+        <!-- Contact information -->
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> sachinyadav@gmail.com</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> 123 Example St, City, Country</p>
+        </section>
+
+    </main>
+
+    <!-- Footer  copyright  -->
+    <footer>
+        <p>&copy; 2024 Example Company. All rights reserved.</p> 
+    </footer>
+</body>
+</html>
