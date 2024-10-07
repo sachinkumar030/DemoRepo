@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+<body>
+    <!--header start-->
+    <header>
+        <h1>Website Design Questionnaire</h1>
+        <p>Please fill out this questionnaire to help us better understand your project requirements.</p>
+    </header>
+    <!--header end-->
+
+    <!--main start-->
+    <main>
+        <!--form sec start-->
+        <form action="submit-questionnaire.php" id="questionnaire" method="post">
+            <!--section 1 start-->
+            <section>
+                <h2>General Information</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="name">Email:</label>
+                <input type="text" id="email" name="email" required>
+                <br>
+                <label for="name">Company:</label>
+                <input type="text" id="company" name="company" required>
+            </section>
+            <!--section 1 end-->
+
+            <!--section 2 start-->
+            <section>
+                <h2>Project Details</h2>
+                <div>
+                    <label for="project-type">Projec-Type:</label>
+                    <select name="project-type" id="project-type" required>
+                        <option value="">Select Project name</option>
+                        <option value="website">website</option>
+                        <option value="web-application">web-application</option>
+                        <option value="e-commerce">e-commerce</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>    
+                <!--textareas 1 start-->        
+                <div>
+                        <label for="project-description">Project-Description:</label>
+                        <textarea name="project-description" id="project-description" rows="4" required></textarea>
+                </div>
+                <!--textareas 1 end-->
+                <div>
+                        <label for="target-audience">Target Audience:</label>
+                        <input type="text" id="target-audience" name="target-audience" required>
+                </div>
+            </section>   
+            <!--section 2 end-->  
+
+            <!--section 3 start-->
+            <section>   
+             <h2>Design Preferences</h2>
+                <div>
+                        <label for="color-scheme">Color Scheme:</label>
+                        <input type="text" id="color-scheme" name="color-scheme" required>
+                        <br>
+                        <label for="font-preferences">Font Preferences:</label>
+                        <input type="text" id="font-preferences" name="font-preferences" required>
+                        <br>
+                        <label for="style-preferences">Style Preferences:</label>
+                        <input type="text" id="style-preferences" name="style-preferences" required>
+                </div>
+            </section>   
+            <!--section 3 end--> 
+            
+            <!--section 4 start-->
+            <section>
+                <h2>Additional Information</h2>
+                <label for="budget">Budget:</label>
+                <input type="text" name="budget" id="budget" required>
+                <br>
+                <label for="timeline">Timeline:</label>
+                <input type="text" id="timeline" name="timeline" required placeholder="e.g.,, 3 Months">
+               <!--textarea 2 start--> 
+                <div>
+                    <label for="additional-notes">Additional Notes:</label>
+                    <textarea name="additional-notes" id="additional-notes" rows="4"></textarea>
+                </div>
+                <!--textareas 2 end-->
+                <button type="submit">Submit Questionnaire</button>
+            </section>   
+            <!--section 4 end-->
+        </form>
+        <!--form sec end-->
+    </main>
+    <!--main end-->
+
+    <!-- footer section start-->
+    <footer>
+        <p>&copy; 2023 Questionnaire. All rights reserved.</p>
+    </footer>
+    <!--footer section end-->
+</body>
+</html>
