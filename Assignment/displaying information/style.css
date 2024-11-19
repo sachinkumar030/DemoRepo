@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.Header{
+    background-color: rgb(46, 204, 113);
+}
+
+th{
+    padding: 10px;
+    color: white;
+}
+
+td{
+    padding: 10px;
+}
+
+#row-2{
+    background-color: rgba(130, 127, 127, 0.244);
+}
+
+#row-3{
+    background-color: white;
+}
+
+hr{
+    width: 60%;
+}

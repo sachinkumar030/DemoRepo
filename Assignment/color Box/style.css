@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    margin-top: 15px ;
+    color: white;
+}
+
+.box-1{
+    background-color:#3498db;
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.box-2{
+    background-color:rgb(46,204,113);
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.box-3{
+    background-color:hsl(6, 78%, 57%);
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    display: block;
+    
+}

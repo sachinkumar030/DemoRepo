@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            width: 280px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .product-item:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .product-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .view-details {
+            text-decoration: none;
+            color: #333;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .view-details:hover {
+            background-color: #45a049;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Our Products</h1>
+    </header>
+
+    <!-- Product List -->
+    <div class="product-list">
+        <!-- Product 1 -->
+        <div class="product-item">
+            <img src="/Product Detail/Burger.jpeg" alt="Burger" class="product-image">
+            <div class="product-info">
+                <h2 class="product-name">Burger</h2>
+                <p class="product-description">A short description of Product 1. It is a great product that solves many problems.</p>
+                <a href="product1-details.html" class="view-details">View Details</a>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-item">
+            <img src="/Product Detail/Pizza.jpeg" alt="Product 2" class="product-image">
+            <div class="product-info">
+                <h2 class="product-name">Pizza</h2>
+                <p class="product-description">This is Product 2, an innovative solution for your needs. It features the latest technology.</p>
+                <a href="product2-details.html" class="view-details">View Details</a>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-item">
+            <img src="/Product Detail/Rasgulla.jpeg" alt="Product 3" class="product-image">
+            <div class="product-info">
+                <h2 class="product-name">Rasgulla</h2>
+                <p class="product-description">Product 3 is a unique item designed for comfort and convenience. It's perfect for everyday use.</p>
+                <a href="product3-details.html" class="view-details">View Details</a>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-item">
+            <img src="/Product Detail/Ultimate-Deluxe-Stromboli-recipe-card-768x768.jpg" alt="Product 4" class="product-image">
+            <div class="product-info">
+                <h2 class="product-name"> Chicken Roll</h2>
+                <p class="product-description">This is Product 4, known for its durability and sleek design. A must-have for your collection.</p>
+                <a href="product4-details.html" class="view-details">View Details</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
